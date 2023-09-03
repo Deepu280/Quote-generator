@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/52/83/59/5283594dd6b1d0dd4b8a59c723a35024.gif');
+
+}
+.wrapper{
+    width: 605px;
+    background: #effff6;
+    border-radius: 15px;
+    padding: 30px 30px  25px ;
+}
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    color: #005a31;
+}
+.wrapper .content{
+    margin: 34px;
+}
+.content .quote-area{
+    display: flex;
+    justify-content: center;
+}
+.quote-area i{
+    font-size: 15px;
+    color: #005a31;
+}
+.quote-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+.quote-area i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.quote-area .quote{
+    font-size: 22px;
+    text-align: center;
+    color: #005a31;
+}
+.content .author{
+    display: flex;
+    margin-top: 18px;
+    font-style: italic;
+    justify-content: flex-end;
+    color: #005a31;
+}
+.author span:first-child{
+    margin: -2px 5px 0 0;
+    font-family: monospace;
+    color: #005a31;
+}
+.wrapper .buttons{
+    border-top: 1px solid #005a31;
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    display: flex;
+    cursor: pointer;
+    color: #005a31;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid #005a31;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    color: #effff6;
+    background: #005a31;
+}
+.features button{
+    border: none;
+    outline: none;
+    color: #effff6;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 13px 22px;
+    border-radius: 15px;
+    background: #005a31;
+}
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
